@@ -1,0 +1,50 @@
+/* Responsive Images */
+img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
+
+h1
+{color: #840029;
+  font-family: UnitedSansCond-Black;
+  text-align: center;
+  font-size: 50pt; 
+}
+
+ div {
+  font-size: 0;
+}
+
+a {
+  font-size: 16px; 
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+}
+
+a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+
+  a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+
+  a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+P { text-align: center }
+
+
+
+
+a:hover, a:focus {color:#840029;}
+
+img:hover, {color:#840029;}
+
+
